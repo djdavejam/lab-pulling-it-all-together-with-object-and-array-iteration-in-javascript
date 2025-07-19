@@ -28,15 +28,17 @@
   },
   "homepage": "https://github.com/learn-co-curriculum/lab-pulling-it-all-together-with-object-and-array-iteration-in-javascript#readme",
   "devDependencies": {
-    "babel-core": "6.26.3",
-    "babel-preset-env": "1.7.0",
+    "@babel/core": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
+    "@babel/traverse": "^7.28.0",
     "chai": "4.1.2",
-    "file-system": "2.2.2",
-    "jsdom": "9.2.1",
-    "mocha": "5.2.0",
+    "chai-spies-next": "^0.9.3",
+    "jsdom": "^26.1.0",
+    "json5": "^2.2.3",
+    "lodash": "^4.17.21",
+    "mocha": "^11.7.1",
     "mocha-jsdom": "~1.1.0",
-    "mocha-multi": "1.0.1",
-    "chai-spies-next": "^0.9.3"
+    "mocha-multi": "^1.1.7"
   },
   "dependencies": {
     "sinon": "^7.3.2"
